@@ -57,7 +57,7 @@ fig.update_layout(
     ]
 )
 
-st.plotly_chart(fig, use_container_width=True)
+st.plotly_chart(fig, width='stretch')
 
 # --- LISTA HOLDINGS ---
 st.markdown("### Holdings <span style='float:right; color:#808080; font-size:16px;'>Total value ▾</span>", unsafe_allow_html=True)
